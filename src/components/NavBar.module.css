@@ -1,0 +1,115 @@
+.navbar{
+    width: 100%;
+    background-color: #ffffff;
+    height: 80px;
+    box-shadow: 10px 0px 100px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    overflow-x: hidden;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo img{
+    height: 55px;
+    width: 55px;
+    margin-left: 150px;
+    margin-top: 5px;
+}
+
+.otherLink{
+    margin-left: 35px;
+    font-size: 14px;
+    color: #333333;
+    border-bottom: 2px solid #333333;
+    font-weight: bolder;
+    padding-bottom: 0.9px;
+    cursor: pointer;
+}
+
+.otherLink:hover{
+    color: #fc8b2e;
+    border-bottom: 2px solid #fc8b2e;
+}
+
+.location{
+    margin-left: 14px;
+    color: #86888f;
+    font-size: 13px;
+}
+
+.location i{
+    color: #fc8b2e;
+}
+
+.right a{
+    text-decoration: none;
+    margin-left: 60px;
+    cursor: pointer;
+    color: #333333;
+}
+
+.right a:hover{
+    color: #fc8b2e;
+}
+
+.right a i{
+    margin-right: 10px;
+}
+
+.right button{
+    margin-right: 180px;
+    margin-left: 25px;
+}
+
+.cartButton{
+    background :none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.cartButton:hover{
+    color: #fc8b2e;
+}
+
+.SideMenu{
+    display: none;
+}
+
+.menuContent{
+    display: none;
+}
+
+@media screen and (width <= 914px){
+    .right{
+        display: none;
+    }
+    .logo img{
+        margin-left: 60px;
+    }
+
+    .SideMenu{
+        display: flex;
+        flex-direction: column;
+    }
+    .menuIcon{
+        padding-right: 40px;
+        color: #333333;
+    }
+    .menuContent{
+        display: contents;
+
+    }
+}

@@ -1,0 +1,110 @@
+.container{
+    width: 100%;
+    height: 150px;
+    background-color: #000;
+    border-bottom: 1px solid #909090;
+}
+
+.topContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #f0f0f5;
+}
+
+.text{
+    width: 480px;
+    font-size: 28px;
+    font-weight: 900;
+    color: #3d4046;
+}
+
+.image img{
+    width: 220px;
+    height: 80px;
+    padding-top: 20px;
+}
+
+.bottomContainer{
+    background-color: #000;
+    padding-top: 40px;
+    color: #fff;
+    padding-left: 260px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 60px;
+    border-bottom: 0.1px solid rgba(128, 128, 128, 0.522);
+}
+
+.bottomContainer div{
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.MainTitle{
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.Title{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.body{
+    color: #909090;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: -40px;
+    margin-top: -1px;
+    color: #909090;
+}
+
+ul li{
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+ul li:last-child{
+    padding-bottom: 20px;
+}
+
+button{
+    background: none;
+    color: #909090;
+    border: 0.01px solid #9090906c;
+    border-radius: 8px;
+    font-size: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    cursor: pointer;
+}
+
+button i{
+    padding-left: 16px;
+    font-size: 12px;
+}
+
+.showAllCities{
+    padding-top: 40px;
+    padding-left: 200px;
+}
+
+.showAllCities ul{
+    list-style-type: none;
+}
+
+.showAllCities{
+    background-color: #000;
+    color: #909090;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}

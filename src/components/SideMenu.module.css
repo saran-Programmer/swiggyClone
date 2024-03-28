@@ -1,0 +1,21 @@
+.menuContent{
+    display: none;
+}
+
+
+@media screen and (width <= 914px){
+    .menuContent{
+        display: flex;
+        flex-direction: column;
+        padding-top: 120px;
+        background-color: #fff;
+    }
+    
+    .menuContent a{
+        text-decoration: none;
+        color: #333333;
+        margin-left: 60px;
+        margin-bottom: 20px;
+    }
+    
+}

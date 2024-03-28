@@ -1,0 +1,73 @@
+.container{
+    flex-basis: 25%;
+}
+
+.imagecontainer{
+    position: relative;
+    z-index: -100;
+}
+
+.imagecontainer img{
+    width: 240px;
+    height: 180px;
+
+    z-index: -1;
+}   
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+.info .title{
+    font-size: 18px;
+    font-weight: 800;
+    color: #474747;
+    padding-top: 0px;
+}
+
+.info .address{
+    font-size: 16px;
+    font-weight: 400;
+    color: #474747;
+    margin-bottom: 20px;
+}
+
+.stars i{
+    background-color: #30a150;
+    color: white;
+    font-size: 10px;
+    padding: 5px 4px;
+    border-radius: 100%;
+
+}
+
+.dicount{
+    color: #fff;
+    position: absolute;
+    left: -12px;
+    top: 15px;
+    font-weight: 800;
+    background: linear-gradient(90deg, rgba(243,111,69,1) 0%, rgba(237,72,106,1) 100%, rgba(9,109,121,1) 100%);;;
+    padding: 4px 6px;
+    border-radius: 8px;
+}
+
+.overLay{
+    position: absolute;
+    background: linear-gradient(180deg, rgba(243,111,69,0) 62%, rgba(0,0,0,1) 100%);
+    width: 240px;
+    height: 180px;
+    top:0px;
+    border-radius: 16px;
+}
+
+.offer{
+    position: absolute;
+    color: #ffffff;
+    top: 140px;
+    left: 10px;
+    font-size: 20px;
+    font-weight: 800;
+}

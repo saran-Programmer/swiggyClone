@@ -1,0 +1,17 @@
+.images{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+.images::-webkit-scrollbar {
+    display: none;
+  }
+
+.images img{
+    width: 35%;
+    height: 35%;
+    margin-top: 20px;
+}
